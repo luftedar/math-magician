@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://luftedar.github.io/math-magician/)
 
 
 ## Getting Started
