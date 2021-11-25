@@ -19,8 +19,11 @@ export default function operate(numberOne, numberTwo, operation) {
       return "Can't divide by 0.";
     }
   }
-  if (operation === '%') {
-    return one.mod(two).toString();
+  if (operation === '%'){
+    if ( numberTwo !== '0'){
+      return one.mod(two).toString();
+    }
+    return "Module Can Not Be Zero!";
   }
   throw Error(`Unknown operation '${operation}'`);
 }
