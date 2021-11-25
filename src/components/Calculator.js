@@ -10,11 +10,6 @@ class Calculator extends React.Component {
       next: null,
       operation: null,
     };
-    this.state = {
-      total: 0,
-      next: null,
-      operation: null,
-    };
     this.handleClick = this.handleClick.bind(this);
   }
 
