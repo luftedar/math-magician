@@ -1,0 +1,2 @@
+*{margin:0;box-sizing:border-box;font-size:30px}#input-area{width:100%;height:15vh;background-color:#8d8d8d;font-size:50px;padding:40px 30px 5px;color:#fff;text-align:right}#button-area{width:100%;height:85vh;display:grid;grid-template-rows:1fr 1fr 1fr 1fr 1fr}.row{display:grid}.row-1,.row-2,.row-3,.row-4{grid-template-columns:1fr 1fr 1fr 1fr}.row-5{grid-template-columns:2fr 1fr 1fr}.calc-button{height:100%;background-color:#e2e2e2;border:.1px solid #adadad}.orange-button{background-color:#ff9c2a}
+/*# sourceMappingURL=main.eef04f00.chunk.css.map */
