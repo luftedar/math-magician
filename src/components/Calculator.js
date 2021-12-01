@@ -10,8 +10,8 @@ const Calculator = () => {
   return (
     <div className="calc-page">
       <div className="calc-header">
-          <h2>Let's do some math!</h2>
-        </div>
+        <h2>Let&apos;s do some math!</h2>
+      </div>
       <div id="calculator">
         <div id="input-area">
           <span id="input-field">

@@ -1,12 +1,12 @@
 import './App.css';
 import React from 'react';
-import Calculator from './components/Calculator';
-import Home from './components/Home';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
-} from "react-router-dom"
+  Route,
+} from 'react-router-dom';
+import Calculator from './components/Calculator';
+import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Quote from './components/Quote';
 
