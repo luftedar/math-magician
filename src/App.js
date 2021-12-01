@@ -11,24 +11,29 @@ import Navbar from './components/Navbar';
 import Quote from './components/Quote';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     return (
       <Router>
-          <Navbar />
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/calculator">
-              <Calculator />
-            </Route>
-            <Route path="/quote">
-              <Quote />
-            </Route>
-            <Route path="*">
-              <Home to="/" />
-            </Route>
-          </Switch>
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/calculator">
+            <Calculator />
+          </Route>
+          <Route path="/quote">
+            <Quote />
+          </Route>
+          <Route path="*">
+            <Home to="/" />
+          </Route>
+        </Switch>
       </Router>
     );
   }
