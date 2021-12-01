@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mochiy+Pop+One&family=Source+Code+Pro:wght@400;500;600;700&display=swap');
+
 * {
   margin: 0;
   box-sizing: border-box;
   font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-family: 'Source Code Pro', monospace;
 }
 
 #input-area {
@@ -9,7 +14,7 @@
   height: 15vh;
   background-color: rgb(141, 141, 141);
   font-size: 50px;
-  padding: 40px 30px 5px 30px;
+  padding: 0 30px 5px 30px;
   color: #fff;
   text-align: right;
 }
@@ -44,4 +49,43 @@
 
 .orange-button {
   background-color: rgb(255, 156, 42);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav-links > * {
+  margin-right: 25px;
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+.home {
+  padding: 20px;
+}
+
+.home > * {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.calc-page {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 20px;
+}
+
+#calculator {
+  flex: 2;
+}
+
+.quote {
+  padding: 40px;
+  justify-content: center;
+  margin-top: 10rem;
 }
