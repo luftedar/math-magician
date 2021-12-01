@@ -10,12 +10,10 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Quote from './components/Quote';
 
-// eslint-disable-next-line react/prefer-stateless-function
 class App extends React.Component {
   render() {
     return (
       <Router>
-        <div>
           <Navbar />
           <Switch>
             <Route exact path="/">
@@ -27,8 +25,10 @@ class App extends React.Component {
             <Route path="/quote">
               <Quote />
             </Route>
+            <Route path="*">
+              <Home to="/" />
+            </Route>
           </Switch>
-        </div>
       </Router>
     );
   }

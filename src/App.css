@@ -81,7 +81,8 @@
 }
 
 #calculator {
-  flex: 2;
+  width: 40vw;
+  height: 50vh;
 }
 
 .quote {
